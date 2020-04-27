@@ -1,0 +1,111 @@
+@import "variables";
+@import "index";
+
+
+@font-face {
+  font-family: "MORGANITE";
+  src: url("../assets/fonts/Morganite-Thin.ttf");
+}
+
+
+.name {
+  h1 {
+    //padding-left: 0.1em;
+    margin-left: -0.08em;
+    font-family: MORGANITE;
+    font-size: 18em;
+    line-height: 0.71em;
+    z-index: 2;
+    margin-top: 0.1em;
+    //color: transparent;
+    //mix-blend-mode: difference;
+    //filter: invert(1) grayscale(1) contrast(9);
+    @media (min-width: 768px) {
+      font-size: 15em;
+    }
+    @media (min-width: 992px) {
+      font-size: 16.5em;
+      margin-left: -0.04em;
+    }
+  }
+}
+
+/*.name::before{
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: #ffffff ;//#282727;
+  top: 2em;
+  bottom: 10em;
+  left: 0em;
+  //margin-left: -3px;
+  overflow: hidden;
+}*/
+
+
+.header{
+  padding-top: 10em;
+  height: 100%;
+position: relative;
+  padding-bottom: 5em;
+
+
+}
+
+
+.description{
+  p{
+    margin-top: 0em;
+    margin-bottom: 2em;
+    margin-right: -0.5em;
+    font-size: 4em;
+    z-index: 2;
+    color: white;
+    @media (min-width: 768px) {
+      font-size: 2.5em;
+      margin-right: -0.3em;
+    }
+    @media (min-width: 992px) {
+      font-size: 3.5em;
+      margin-right: 0.3em;
+    }
+  }
+
+}
+
+.emptySpace{
+  margin-top: 5em;
+  height: 15em;
+  background-color: $body-bg ;
+  opacity: 0;
+  z-index: -9;
+}
+.myblockno1{
+  position: absolute;
+  z-index: 0;
+  height: 19%;
+  width: 100%;
+  background-color: #4e555b;
+  top: 7em;
+  left: 0%;
+  opacity: 0;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(30%);
+
+  }
+}
+
+.myblockno2{
+  content: '';
+  position: absolute;
+  z-index: 0;
+  height: 22%;
+  width: 50%;
+  background-color: #474747;
+  top: 12em;
+  left: 30em;
+  opacity: 0;
+}

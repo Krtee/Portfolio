@@ -1,0 +1,20 @@
+@import "index";
+
+.skills{
+  text-align: center;
+  list-style: none;
+  .list-group-item{
+    border-bottom-style: none;
+  }
+  .list-group-item::after {
+    background-color: #4e555b;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 70px;
+  }
+}

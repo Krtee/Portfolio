@@ -1,9 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0054f4e-a664-4013-bacc-f92d63459944" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/me.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Morganite-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Morganite-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Morganite-Book.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Morganite-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Morganite-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Morganite-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Morganite-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/PromenadeDeLaCroisetteRegular-8MOOZ.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/NotFound/404.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/Contact.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/Main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/Skills.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/Timeline.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/sketch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/headerName.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/home/Code.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/Code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/paperStyle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/skillList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aUWhS4hJONDAXG4GeyYJzY1FDa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\jsx\Portfolio" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\jsx" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\scss" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\js" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\public" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\jsx" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\js" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\assets" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\scss" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0054f4e-a664-4013-bacc-f92d63459944" name="Default Changelist" comment="" />
+      <created>1586790771646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586790771646</updated>
+      <workItem from="1586790773223" duration="8547000" />
+      <workItem from="1586958375972" duration="4899000" />
+      <workItem from="1586963709731" duration="20953000" />
+      <workItem from="1587052745476" duration="6090000" />
+      <workItem from="1587068677273" duration="10313000" />
+      <workItem from="1587136092551" duration="12108000" />
+      <workItem from="1587221396896" duration="15247000" />
+      <workItem from="1587301039346" duration="8064000" />
+      <workItem from="1587387882660" duration="7030000" />
+      <workItem from="1587451276594" duration="2786000" />
+      <workItem from="1587455450926" duration="599000" />
+      <workItem from="1587456667518" duration="619000" />
+      <workItem from="1587733314308" duration="1512000" />
+      <workItem from="1587736470288" duration="8115000" />
+      <workItem from="1587832976000" duration="6093000" />
+      <workItem from="1587933234259" duration="5047000" />
+      <workItem from="1588000172196" duration="1370000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#ESLint" timestamp="1586971370766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1586971370766" />
+    <state x="431" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586792522614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="431" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586792522614" />
+    <state width="1439" height="278" key="GridCell.Tab.0.bottom" timestamp="1587938555750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1439" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587938555750" />
+    <state width="1439" height="278" key="GridCell.Tab.0.center" timestamp="1587938555750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1439" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587938555750" />
+    <state width="1439" height="278" key="GridCell.Tab.0.left" timestamp="1587938555750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1439" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587938555750" />
+    <state width="1439" height="278" key="GridCell.Tab.0.right" timestamp="1587938555750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1439" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587938555750" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587396747095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587396747095" />
   </component>
 </project>

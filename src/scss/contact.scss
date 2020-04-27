@@ -1,0 +1,17 @@
+@import "variables";
+@import "index";
+
+.emptySpace{
+  height: 15em;
+  background-color: $body-bg ;
+  z-index: 0;
+}
+
+.row{
+  margin-bottom: 5em;
+}
+
+.contact{
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
