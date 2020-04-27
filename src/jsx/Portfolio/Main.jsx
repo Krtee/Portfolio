@@ -10,6 +10,9 @@ import '../../scss/nav.scss';
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import {HashLink as Link} from 'react-router-hash-link';
+import HashRouter from "react-router-dom/modules/HashRouter";
+import BrowserRouter from "react-router-dom/modules/BrowserRouter";
 
 
 class Main extends Component {
@@ -18,6 +21,7 @@ class Main extends Component {
 
         this.contact = React.createRef()
     }
+
 
     render() {
         return (
@@ -29,7 +33,7 @@ class Main extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse>
                         <Nav className={"ml-auto"} id={"navigationItems"}>
-                            <Nav.Link className="link" id="homelink" >
+                            <Nav.Link className="link" id="homelink">
                                 Home
                             </Nav.Link>
                             <Nav.Link className="link" href={""}>
@@ -38,16 +42,18 @@ class Main extends Component {
                             <Nav.Link className="link">
                                 Projects
                             </Nav.Link>
-                            <Nav.Link className="link" id="contactlink" >
+                            <Nav.Link className="link" id="contactlink">
                                 Contact
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-                <Header></Header>
-                <Timeline></Timeline>
-                <Skills></Skills>
-                <Contact ref={this.contact}></Contact>
+                <HashRouter>
+                    <Header></Header>
+                    <Timeline></Timeline>
+                    <Skills></Skills>
+                    <Contact ref={this.contact}></Contact>
+                </HashRouter>
             </div>
         );
     }

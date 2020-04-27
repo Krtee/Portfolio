@@ -15,7 +15,7 @@ export default function sketch(p){
 
 
     p.preload =() =>{
-        img=p.loadImage('/me5.jpg');
+        img=p.loadImage('/me.jpeg');
     }
 
 
