@@ -52,3 +52,22 @@ code {
 
 
 }
+
+#root {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.scrollArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.canvas > div {
+  z-index: 10000000;
+}

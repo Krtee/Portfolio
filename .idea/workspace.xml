@@ -2,14 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0054f4e-a664-4013-bacc-f92d63459944" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Morganite-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Morganite_Black.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/MOONGET_Heavy.blob" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/domComponents/Contact.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/domComponents/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/domComponents/Projects.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/domComponents/Skills.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/domComponents/Timeline.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/threeJScomponents/Block.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/threeJScomponents/Cross.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/threeJScomponents/CustomMaterial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/threeJScomponents/HeaderThree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsx/Portfolio/threeJScomponents/Text.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jsx/Portfolio/Contact.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jsx/Portfolio/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/Portfolio/domComponents/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jsx/Portfolio/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/Portfolio/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/Portfolio/sketch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/Portfolio/sketch.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jsx/Portfolio/Skills.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jsx/Portfolio/Timeline.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jsx/Portfolio/sketch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/Portfolio/domComponents/sketch.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jsx/home/Code.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/home/Code.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +69,37 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\public" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\assets\fonts" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\jsx\Portfolio\threeJScomponents" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\jsx" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\jsx\Portfolio\domComponents" />
+      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\jsx\Portfolio\threeJScomponents" />
       <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\jsx\Portfolio" />
       <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\jsx" />
       <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\scss" />
-      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\js" />
-      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\public" />
-      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\jsx" />
-      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\js" />
-      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\assets" />
-      <recent name="C:\Users\MinhV\WebstormProjects\portfolioreact\src\scss" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -79,6 +112,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -109,49 +147,85 @@
       <workItem from="1588000172196" duration="1370000" />
       <workItem from="1588006175405" duration="143000" />
       <workItem from="1588006344011" duration="4736000" />
+      <workItem from="1588082535787" duration="16000" />
+      <workItem from="1588091473619" duration="7759000" />
+      <workItem from="1588176019507" duration="11930000" />
+      <workItem from="1588199515119" duration="3207000" />
+      <workItem from="1588246458065" duration="19000" />
+      <workItem from="1588269287900" duration="9036000" />
+      <workItem from="1588334758639" duration="14318000" />
+      <workItem from="1588428076500" duration="7127000" />
+      <workItem from="1588529834443" duration="8311000" />
+      <workItem from="1588601578075" duration="10014000" />
+      <workItem from="1588960828130" duration="10997000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#ESLint" timestamp="1586971370766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1586971370766" />
-    <state x="431" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586792522614">
+    <state x="491" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588981174670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="431" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586792522614" />
-    <state width="1379" height="196" key="GridCell.Tab.0.bottom" timestamp="1588018763653">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="491" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588981174670" />
+    <state x="431" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588096647039">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1439" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587938555750" />
+    <state x="431" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588096647039" />
+    <state x="441" y="275" key="FileChooserDialogImpl" timestamp="1588290046768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588290046768" />
+    <state width="1561" height="344" key="GridCell.Tab.0.bottom" timestamp="1588975457297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1561" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588975457297" />
     <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1588018763653" />
     <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1588006787712" />
-    <state width="1379" height="196" key="GridCell.Tab.0.center" timestamp="1588018763652">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1561" height="344" key="GridCell.Tab.0.center" timestamp="1588975457296">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1439" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587938555750" />
+    <state width="1561" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588975457296" />
     <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1588018763652" />
     <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1588006787710" />
-    <state width="1379" height="196" key="GridCell.Tab.0.left" timestamp="1588018763651">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1561" height="344" key="GridCell.Tab.0.left" timestamp="1588975457296">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1439" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587938555750" />
+    <state width="1561" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588975457296" />
     <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1588018763651" />
     <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1588006787709" />
-    <state width="1379" height="196" key="GridCell.Tab.0.right" timestamp="1588018763652">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1561" height="344" key="GridCell.Tab.0.right" timestamp="1588975457297">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1439" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587938555750" />
+    <state width="1561" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588975457297" />
     <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1588018763652" />
     <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1588006787711" />
-    <state x="229" y="69" key="SettingsEditor" timestamp="1588016280414">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="116" y="75" key="SettingsEditor" timestamp="1588199648478">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="116" y="75" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588199648478" />
     <state x="229" y="69" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1588016280414" />
+    <state x="547" y="258" key="Vcs.Push.Dialog.v2" timestamp="1588982002797">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="547" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588982002797" />
+    <state x="100" y="107" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1588096657578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="107" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588096657578" />
+    <state x="256" y="105" width="1399" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588961459329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="256" y="105" width="1399" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588961459329" />
+    <state x="296" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588965661505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="296" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588965661505" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587396747095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,28 +1,14 @@
 import React, {Component, createRef, useEffect, useState} from "react";
-import Paperscript from "../headerName";
-import '../../scss/header.scss';
-import P5Wrapper from 'react-p5-wrapper';
-import sketch from './sketch';
+import '../../../scss/header.scss';
 
 
-class Header extends Component {
+function Header() {
 
-    state = {}
-
-    constructor(props) {
-        super(props);
-        this.state = {color: [Math.random() * 255, Math.random() * 255, Math.random() * 255]};
-
-    }
-
-
-    render() {
         return (
             <div className="container-fluid header">
                 <div className={'myblockno2'}></div>
 
                 <div className={'myblockno1'}>
-                    <img src={'me.jpeg'}/>
                 </div>
 
                 <div className={'row'}>
@@ -42,10 +28,7 @@ class Header extends Component {
 
                 </div>
             </div>
-
-
         );
-    }
 }
 
 export default Header;

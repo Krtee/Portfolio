@@ -7,18 +7,17 @@ import Code from "./jsx/home/Code";
 import { BrowserRouter as Router,Route, Switch, Link, Redirect} from "react-router-dom";
 import NotFound from "./jsx/NotFound/404";
 import Main from "./jsx/Portfolio/Main";
+import P5Wrapper from "react-p5-wrapper";
+import sketch from "./jsx/Portfolio/domComponents/sketch";
 
 ReactDOM.render(
-  <React.StrictMode>
     <Router>
         <Switch>
         <Route exact path={'/'} component={Code}/>
         <Route exact path={'/about'} component={Main}/>
-        <Route exact path={'/404'} component={NotFound}/>
-        <Redirect to={'404'}/>
+        <Route path={'/404'} component={NotFound}/>
         </Switch>
-    </Router>
-  </React.StrictMode>,
+    </Router>,
   document.getElementById('root')
 );
 

@@ -5,10 +5,10 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import Navigation from '../jsx/Portfolio/Main';
-import Header from "../jsx/Portfolio/Header";
-import Skills from "../jsx/Portfolio/Skills";
-import Timeline from "../jsx/Portfolio/Timeline";
+import Main from '../jsx/Portfolio/Main';
+import Header from "../jsx/Portfolio/domComponents/Header";
+import Skills from "../jsx/Portfolio/domComponents/Skills";
+import Timeline from "../jsx/Portfolio/domComponents/Timeline";
 import Code from "../jsx/home/Code";
 import '../scss/Code.scss';
 
