@@ -11,8 +11,13 @@ html,body{
   ::-webkit-scrollbar {display:none;}
   //overflow: hidden;
   height: 100%;
+  z-index: 100;
 }
 
+#root {
+  width: 100vw;
+  height: 100vh;
+}
 
 .list-group-item{
   background-color: transparent;
@@ -44,19 +49,12 @@ code {
 }
 
 .background{
- // top:-30em;
-  //left: -20em;
   position: fixed;
   filter: brightness(30%);
   z-index: -1;
-
-
 }
-
-#root {
-  width: 100vw;
-  height: 100vh;
-
+.canvas > div {
+  z-index: 10000000;
 }
 
 .scrollArea {
@@ -68,6 +66,3 @@ code {
   overflow: auto;
 }
 
-.canvas > div {
-  z-index: 10000000;
-}

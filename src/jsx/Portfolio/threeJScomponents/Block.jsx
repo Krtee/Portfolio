@@ -1,17 +1,14 @@
-import React, {createContext, useRef, useContext} from "react"
-import {useFrame, useThree} from "react-three-fiber"
-import lerp from "lerp";
-import state from "../store";
+import React, { createContext, useRef, useContext } from "react"
+import { useFrame, useThree } from "react-three-fiber"
+import lerp from "lerp"
+import state from "../store"
 
+const offsetContext = createContext(0)
 
-const offsetContext = createContext(0);
-
-function Block({children, offset, factor, ...props}) {
-    const ref = useRef();
-    // Fetch parent offset and the height of a single section
-    const {offset: parentOffset, sectionHeight} = useBlock();
-    offset = offset !== undefined ? offset : parentOffset;
-    // Runs every frame and lerps the inner block into its place
+function Block({ children, offset, factor, ...props }) {
+    const { offset: parentOffset, sectionHeight } = useBlock()
+    const ref = useRef()
+    offset = offset !== undefined ? offset : parentOffset
     useFrame(() => {
         const curY = ref.current.position.y
         const curTop = state.top.current
@@ -27,14 +24,13 @@ function Block({children, offset, factor, ...props}) {
 }
 
 function useBlock() {
-    const {sections, pages, zoom} = state;
-    const {size,viewport} = useThree();
-    const offset = useContext(offsetContext);
+    const { sections, pages, zoom } = state
+    const { size, viewport } = useThree()
+    const offset = useContext(offsetContext)
     const viewportWidth = viewport.width
     const viewportHeight = viewport.height
     const canvasWidth = viewportWidth / zoom
     const canvasHeight = viewportHeight / zoom
-    console.log(viewportHeight,canvasHeight)
     const mobile = size.width < 700
     const margin = canvasWidth * (mobile ? 0.2 : 0.1)
     const contentMaxWidth = canvasWidth * (mobile ? 0.8 : 0.6)
@@ -51,7 +47,8 @@ function useBlock() {
         margin,
         contentMaxWidth,
         sectionHeight,
-        offsetFactor}
+        offsetFactor
+    }
 }
 
-export {Block, useBlock};
+export { Block, useBlock }
