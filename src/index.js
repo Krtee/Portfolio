@@ -9,12 +9,13 @@ import NotFound from "./jsx/NotFound/404";
 import Main from "./jsx/Portfolio/Main";
 import P5Wrapper from "react-p5-wrapper";
 import sketch from "./jsx/Portfolio/domComponents/sketch";
+import About from "./jsx/Portfolio/About";
 
 ReactDOM.render(
     <Router>
         <Switch>
         <Route exact path={'/'} component={Code}/>
-        <Route exact path={'/about'} component={Main}/>
+        <Route exact path={'/about'} component={About}/>
         <Route path={'/404'} component={NotFound}/>
         </Switch>
     </Router>,

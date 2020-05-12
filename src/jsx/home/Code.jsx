@@ -101,14 +101,14 @@ class Code extends Component {
                     <div className={'scope4'} onClick={this.handleMouseDown}>{'go.to(\'About.html\');'}</div>
                     <div className={'scope3'} onClick={this.handleMouseDown}>{'}'}</div>
                     <div className={'scope3'} onClick={this.handleMouseDown}>{['else if (answer==\'',
-                        <a  href={'about/projects'}>
+                        <a  href={'about#projects'}>
                             <span onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}
                                   className="bold">My Projects</span>
                         </a>, '\'){']}</div>
                     <div className={'scope4'} onClick={this.handleMouseDown}>{'go.to("Projects.html");'}</div>
                     <div className={'scope3'} onClick={this.handleMouseDown}>{'}'}</div>
                     <div className={'scope3'} onClick={this.handleMouseDown}>{['else if (answer==\'',
-                        <a  href={'about/contact'}><span onMouseEnter={this.handleMouseEnter}
+                        <a  href={'about#contact'}><span onMouseEnter={this.handleMouseEnter}
                                                 onMouseLeave={this.handleMouseLeave}
                                                 className="bold">Contact Me</span>
                         </a>, '\'){']}</div>
